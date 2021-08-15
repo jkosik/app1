@@ -1,2 +1,2 @@
 nginx:
-  nameOverride: "mythermo"
+  nameOverride: "app1-prod"
