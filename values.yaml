@@ -5,7 +5,7 @@ image:
 
 #subchart
 nginx:
-  nameOverride: "app1-dev-subchartapp"
+  nameOverride: "app1-dev-subchart"
   image:
     tag: 1.21.0
 
