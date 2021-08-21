@@ -1,2 +1,5 @@
 nginx:
-  nameOverride: "app1-prod"
+  nameOverride: "app1-dev"
+image:
+  tag: 1.21.0
+
