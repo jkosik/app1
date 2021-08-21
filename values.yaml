@@ -1,5 +1,11 @@
-nginx:
-  nameOverride: "app1-dev"
+name: app1-dev
 image:
-  tag: 1.21.0
+  name: jkosik/app1
+  tag: dev
+
+#subchart
+nginx:
+  nameOverride: "app1-dev-subchartapp"
+  image:
+    tag: 1.21.0
 
