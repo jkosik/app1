@@ -1,11 +1,11 @@
-name: app1-prod
+name: app1-dev
 image:
   name: jkosik/app1
   tag: dev
 
 #subchart
 nginx:
-  name: app1-prod-child
+  name: app1-dev-child
   image:
     name: nginx
     tag: 1.21.0
