@@ -3,7 +3,7 @@ image:
   name: jkosik/app1
   tag: dev
 
-#subchart
+#subchart. nginx image name is at nginx.image.repository (referenced in argocd-image-updater annotation)
 nginx:
   nameOverride: "subchart"
   image:
