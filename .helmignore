@@ -22,4 +22,3 @@
 *.tmproj
 .vscode/
 .argocd-source-app1-dev.yaml
-.aaa-source-app1-dev.yaml
