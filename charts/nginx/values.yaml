@@ -1,4 +1,4 @@
-name: app1-dev-child
+name: default
 image:
   name: nginx
   tag: 1.21.0
