@@ -9,3 +9,7 @@ nginx:
   image:
     name: nginx
     tag: 1.21.0
+
+# dependency
+haproxy:
+  nameOverride: myhaproxy
