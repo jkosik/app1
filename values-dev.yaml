@@ -12,4 +12,4 @@ nginx:
 
 # dependency
 haproxy:
-  nameOverride: myhaproxy
+  nameOverride: myhaproxy2
