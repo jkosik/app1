@@ -1,7 +1,7 @@
 name: app1-stage
 image:
   name: jkosik/app1
-  tag: stage
+  tag: stage-1631739214
 
 #subchart
 nginx:
