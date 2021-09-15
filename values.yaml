@@ -1,7 +1,7 @@
 name: app1
 image:
   name: jkosik/app1
-  tag: 1631736775
+  tag: "1631736775"
 
 #subchart
 nginx:
