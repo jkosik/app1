@@ -1,15 +1,15 @@
-name: app1
+name: app1-stage
 image:
   name: jkosik/app1
-  tag: 1631736775
+  tag: stage
 
 #subchart
 nginx:
-  name: app1-subchart
+  name: app1-stage-subchart
   image:
     name: nginx
     tag: 1.21.0
 
 # dependency
 haproxy:
-  nameOverride: haproxy-dependency
+  nameOverride: haproxy-stage-dependency

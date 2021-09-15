@@ -5,11 +5,11 @@ image:
 
 #subchart
 nginx:
-  name: app1-dev-child
+  name: app1-dev-subchart
   image:
     name: nginx
     tag: 1.21.0
 
 # dependency
 haproxy:
-  nameOverride: myhaproxy2
+  nameOverride: haproxy-dev-dependency
